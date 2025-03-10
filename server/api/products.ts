@@ -21,7 +21,7 @@ export default defineEventHandler(async (event) => {
   }
 
   const agent = new https.Agent({
-    rejectUnauthorized: false, 
+    rejectUnauthorized: false,
   })
 
   try {

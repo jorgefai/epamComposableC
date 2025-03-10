@@ -1,3 +1,3 @@
 export const config = {
-    magentoApiToken: 'eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQsInV0eXBpZCI6MiwiaWF0IjoxNzQxNDYzOTIzLCJleHAiOjE3NDE0Njc1MjN9.zTJdgoSOqkomKT-1gpFptD4r43ts5kerYzHZbFUBId4'
+    magentoApiToken: 'eyJraWQiOiIxIiwiYWxnIjoiSFMyNTYifQ.eyJ1aWQiOjQsInV0eXBpZCI6MiwiaWF0IjoxNzQxNjMzMjI2LCJleHAiOjE3NDE2MzY4MjZ9.4CpjiGDu50-TENu36lrZvn9CTmVg8riWe2oTvgpObLQ'
   }

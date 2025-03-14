@@ -1,14 +1,17 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   typescript: {
     typeCheck: true,
   },
+
   runtimeConfig: {
     public: {
       ADYEN_CLIENT_KEY: process.env.ADYEN_CLIENT_KEY || '',
     },
   },
+
   app: {
     head: {
       viewport: 'minimum-scale=1, initial-scale=1, width=device-width',
@@ -29,13 +32,17 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   appConfig: {
     titleSuffix: 'Nuxt3',
   },
+
   imports: {
     dirs: ['composables/**', 'utils/**'],
   },
+
   css: ['~/styles/base.scss'],
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@pinia/nuxt',
@@ -50,12 +57,14 @@ export default defineNuxtConfig({
     ],
     '@nuxt/image',
   ],
+
   nitro: {
     prerender: {
       crawlLinks: true,
     },
     compressPublicAssets: true,
   },
+
   routeRules: {
     '/_ipx/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
     '/icons/**': { headers: { 'cache-control': 'public, max-age=31536000, immutable' } },
